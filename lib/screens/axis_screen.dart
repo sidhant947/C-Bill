@@ -60,10 +60,18 @@ class _AxisScreenState extends State<AxisScreen> {
             ),
             SizedBox(height: 16.0),
             ElevatedButton(
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Colors.deepPurple),
               onPressed: () {
                 _launchURL();
               },
-              child: Text('Pay Now'),
+              child: const Padding(
+                padding: EdgeInsets.all(20),
+                child: Text(
+                  'Pay Now',
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                ),
+              ),
             ),
             SizedBox(height: 16),
             if (_errorMessage != null)

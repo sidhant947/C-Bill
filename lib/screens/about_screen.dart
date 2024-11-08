@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AboutScreen extends StatelessWidget {
-  final Uri _url = Uri.parse('mailto:lxzfonhqq@mozmail.com"');
+  final Uri _url = Uri.parse('mailto:khatkarsidhant.com"');
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("About"),
+        title: const Text("About"),
         centerTitle: true,
       ),
       body: Center(
@@ -16,7 +16,7 @@ class AboutScreen extends StatelessWidget {
         onTap: () {
           launchUrl(_url);
         },
-        child: Text(
+        child: const Text(
           "Made by Sidhant",
           style: TextStyle(fontSize: 30),
         ),
