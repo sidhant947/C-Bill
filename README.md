@@ -4,6 +4,18 @@
 
 Welcome to **C-Bill**! This Flutter application is designed to make your credit card bill payments simple, secure, and hassle-free. With a focus on privacy, C-Bill requires no device permissions, ensuring that your data remains safe and secure.
 
+## Play Store
+
+
+1. **Join The Beta Test Group**:
+
+     <a href="https://groups.google.com/g/beta-testers-sidhant/">Google Beta Test Group</a>
+
+2. **Tap below to download from Play Store**:
+
+    <a href="https://play.google.com/store/apps/details?id=com.sidhant.cbill"><img src="https://github.com/user-attachments/assets/5ff479ee-9c86-47fd-a583-2a4f8f10633e" width="250"></a>
+
+
 ## Screenshots
 
  <img src="https://github.com/user-attachments/assets/78cd2095-59c9-426d-aa99-e5bfcfbc3a2c" alt="App Info" height="300">
